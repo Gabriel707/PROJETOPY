@@ -4,3 +4,6 @@ quote = "Don’t be a slave to stupid rules."
 print(f'{famous_person.title()} once said, "{quote}"')
 stripped_name = famous_person.strip("J")
 print(stripped_name)
+
+rstripped_name = famous_person.rstrip("J")
+print(rstripped_name)

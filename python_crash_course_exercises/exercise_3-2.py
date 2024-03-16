@@ -23,4 +23,4 @@ print(list_of_users)
 # Need to find a way to indentify what's element position to be popped - to be implemented
 print(list_of_users)
 removed_user = list_of_users.pop(-1)
-print(removed_user)
+print(f'User removed: {removed_user}')

@@ -16,6 +16,6 @@ for num in huge_nums:
     else:
         print("Please check your code...")
 
-print(f"PART I: \n{huge_nums_pt1}\n")
-print(f"PART II: \n{huge_nums_pt2}\n")
-print(f"PART III: \n{huge_nums_pt3}\n")
+print(f"PART I: \n{(min(huge_nums_pt1), (max(huge_nums_pt1)))}\n")
+print(f"PART II: \n{(min(huge_nums_pt2), (max(huge_nums_pt2)))}\n")
+print(f"PART II: \n{(min(huge_nums_pt3), (max(huge_nums_pt3)))}\n")

@@ -16,11 +16,14 @@ for num in huge_nums:
     else:
         print("Please check your code...")
 
-num_to_be_checked = input('Insert number to be checked: ')
+num_to_be_checked = int(input('Insert number to be checked: '))
 if num_to_be_checked in huge_nums_pt1:
-    
+    print(f"{num_to_be_checked} is present on huge_nums_part1.\n")
+elif num_to_be_checked in huge_nums_pt2:
+    print(f"{num_to_be_checked} is present on huge_nums_part2.\n")
+elif num_to_be_checked in huge_nums_pt3:
+    print(f"{num_to_be_checked} is present on huge_nums_part3")
 
 # print(f"PART I: \n{(min(huge_nums_pt1), (max(huge_nums_pt1)))}\n")
 # print(f"PART II: \n{(min(huge_nums_pt2), (max(huge_nums_pt2)))}\n")
 # print(f"PART II: \n{(min(huge_nums_pt3), (max(huge_nums_pt3)))}\n")
-

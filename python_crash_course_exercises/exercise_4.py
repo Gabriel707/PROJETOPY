@@ -16,6 +16,11 @@ for num in huge_nums:
     else:
         print("Please check your code...")
 
-print(f"PART I: \n{(min(huge_nums_pt1), (max(huge_nums_pt1)))}\n")
-print(f"PART II: \n{(min(huge_nums_pt2), (max(huge_nums_pt2)))}\n")
-print(f"PART II: \n{(min(huge_nums_pt3), (max(huge_nums_pt3)))}\n")
+num_to_be_checked = input('Insert number to be checked: ')
+if num_to_be_checked in huge_nums_pt1:
+    
+
+# print(f"PART I: \n{(min(huge_nums_pt1), (max(huge_nums_pt1)))}\n")
+# print(f"PART II: \n{(min(huge_nums_pt2), (max(huge_nums_pt2)))}\n")
+# print(f"PART II: \n{(min(huge_nums_pt3), (max(huge_nums_pt3)))}\n")
+

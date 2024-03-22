@@ -26,4 +26,6 @@ class Carro():
 meu_carro = Carro('Mercedes', 'A250', '2019',
                   'AWD' 'Hatch', 'Branco', '45.000')
 
+meu_carro = Carro('Volvo', 'v40', '2020', 'auto', 'hatch', 'preto', '0')
+
 Carro.list_carro()
